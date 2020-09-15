@@ -1,0 +1,14 @@
+name: Validate PR Label
+on:
+  pull_request:
+   types: [opened, labeled, unlabeled, synchronize]
+
+jobs:
+    validate_pr_label:
+        runs-on: ubuntu-latest
+        steps:
+        name: Validate PR Label
+          uses: jesusvasquez333/verify-pr-label-action@v1.2.0
+          with:
+            github-token: '${{ secrets.GITHUB_TOKEN }}'
+            valid-labels: 'bug, enhancement'
