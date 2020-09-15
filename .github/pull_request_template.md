@@ -12,5 +12,5 @@ https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-re
 **Additional context**
 Add any other context or screenshots about the feature request here.
 
-**Proposed Cahnges**
+**Proposed Changes**
 Please describe changes proposed by this PR
